@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #fff9f4;
+   color: #9e8673;
+   font-family: "Oswald", sans-serif;
+   font-weight: 400;
+   font-size: 1.15rem;
+   
+}
+
+header {
+    padding: 2rem;
+    background-color: #614f41;
+    text-align: center;
+    font-size: 1.55rem;
+    p {
+        color: #ebd4c2;
+    }
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+h2 {
+    color: #776456;
+    font-size: 1.35rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #776456;
+}
+
+input[type="text"], input[type="password"], input[type="text"], input[type="email"] {
+    width: 27.7rem;
+    padding: 0.5rem;
+    border: 2px solid #776456;
+    outline: none;
+    border-radius: 8px;
+    background-color: #fff1e6;
+}
+
+input::placeholder {
+    color: #776456
+}
+
+input[type="date"] {
+    background-color: #f1f1f1;
+    outline: none;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 2px;
+    padding: 0.07rem;
+    width: 7.23rem;
+}
+
+select {
+    cursor: pointer;
+    color: #776456;
+    width: 27.7rem;
+    padding: 0.5rem;
+    border: 2px solid #776456;
+    outline: none;
+    border-radius: 8px;
+    background-color: #fff1e6;
+}
+
+img {
+    width: 6.5rem;
+}
